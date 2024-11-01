@@ -19,5 +19,8 @@
 				"<all_urls>"
 			]
 		}
-	]
+	],
+	"action": {
+		"default_popup": "toolbar/options.html"
+	}
 }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="options.css">
+	<title>Frustration Focus</title>
+</head>
+<body>
+	<table id="frustration-focus-options" border="3">
+		<tr>
+			<td>Status:</td>
+			<td id="frustration-focus-status" class="enabled">
+				Enabled
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<button id="frustration-focus-toggle">
+					Disable
+				</button>
+			</td>
+		</tr>
+		<tr>
+			<td>Schedule?</td>
+			<td>
+				<input type="checkbox" id="frustration-focus-schedule">
+			</td>
+		</tr>
+		<tr>
+			<td>Start:</td>
+			<td>
+				<input type="number" id="frustration-focus-start-hour" class="frustration-focus-num-sel" min="0" max="23">
+				<input type="number" id="frustration-focus-start-minute" class="frustration-focus-num-sel" min="0" max="59">
+			</td>
+		</tr>
+		<tr>
+			<td>End:</td>
+			<td>
+				<input type="number" id="frustration-focus-end-hour" class="frustration-focus-num-sel" min="0" max="23">
+				<input type="number" id="frustration-focus-end-minute" class="frustration-focus-num-sel" min="0" max="59">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				Exempt Sites:
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

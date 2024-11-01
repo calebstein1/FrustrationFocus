@@ -1,0 +1,19 @@
+table {
+	min-width: 256px;
+}
+
+button {
+	width: 100%;
+}
+
+.enabled {
+	color: green;
+}
+
+.disabled {
+	color: red;
+}
+
+.frustration-focus-num-sel {
+	max-width: 64px;
+}
