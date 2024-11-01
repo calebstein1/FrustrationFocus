@@ -1,0 +1,23 @@
+{
+	"manifest_version": 3,
+	"name": "Frustration Focus",
+	"description": "Focus on what you need to get done, using the power of frustration!",
+	"version": "0.1",
+	"icons": {
+		"48": "icons/clock-48.png",
+		"96": "icons/clock-96.png"
+	},
+	"content_scripts": [
+		{
+			"js": [
+				"frustration-focus.js"
+			],
+			"css": [
+				"frustration-focus.css"
+			],
+			"matches": [
+				"<all_urls>"
+			]
+		}
+	]
+}

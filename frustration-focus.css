@@ -1,0 +1,8 @@
+#frustration_blocker {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	background-color: white;
+	color: black;
+	z-index: 2147483647;
+}
